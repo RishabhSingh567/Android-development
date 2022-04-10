@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+   <TextView
+    android:id="@+id/txt0"
+    android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="30dp"
+    android:text="MX Player"
+       />
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="About Us"
+        android:id="@+id/au"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"/>
+
+
+    <Button
+        android:id="@+id/cs"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_margin="39dp"
+        android:text="Contact Us" />
+
+    <Button
+        android:id="@+id/gl"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="39dp"     
+        android:text="Gallery" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="200dp"
+            android:layout_width="60dp"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/mx" />
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+
+</RelativeLayout>
