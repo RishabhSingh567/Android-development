@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/image1"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/lock"
+        />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image1"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:text="Lock-Up"
+        android:textSize="23dp"
+        />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/aashram" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image2"
+        android:layout_marginLeft="260dp"
+        android:textStyle="bold"
+        android:text="Aashram"
+        android:textSize="23dp"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/image3"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/image1"
+        android:src="@drawable/mastram"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image3"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:text="Mastram"
+        android:textSize="23dp"
+        />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="260dp"
+        android:src="@drawable/flames"
+        />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_below="@id/image4"
+        android:text="Flames"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
